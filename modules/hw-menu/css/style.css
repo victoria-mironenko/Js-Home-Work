@@ -1,0 +1,17 @@
+nav {
+    background-color: rgb(164, 229, 229);
+    padding: 15px;
+    box-shadow: 3px -3px 5px grey;
+    width: 100px;
+    
+}
+
+.closed {
+    transform: translateX(-100px);
+    transition: 0.5s;
+}
+
+.open {
+    transform: translateX(0px);
+    transition: 0.5s;
+}
